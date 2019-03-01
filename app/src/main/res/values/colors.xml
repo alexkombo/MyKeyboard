@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboardBackgroundColor">#394263</color>
+    <color name="PlushBlue">#3c78ce</color>
+    <color name="Vine">#58d093</color>
+    <color name="FairRed">#df4931</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+</resources>

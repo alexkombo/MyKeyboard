@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.6">
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_z"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:text="Z" />
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_x"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/keyHeight"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:text="X" />
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_c"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/keyHeight"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:text="C" />
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_v"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/keyHeight"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:text="V" />
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_b"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/keyHeight"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:text="B" />
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_n"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/keyHeight"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:text="N" />
+
+        <com.android.mykeyboard.view.SquareButton
+            android:id="@+id/key_m"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/keyHeight"
+            android:layout_weight="1"
+            android:background="@drawable/blue_key_background"
+            android:textColor="@android:color/white"
+            android:text="M" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/keyboard"
+    android:orientation="vertical">
+
+    <include layout="@layout/number_row" />
+
+    <include layout="@layout/qp_row"/>
+
+    <include layout="@layout/al_row"/>
+
+    <include layout="@layout/zm_row"/>
+
+    <include layout="@layout/space_layout"/>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_q"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="Q" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_w"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="W" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_e"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="E" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_r"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="R" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_t"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="T" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_y"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="Y" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_u"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="U" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_i"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="I" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_o"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="O" />
+
+    <com.android.mykeyboard.view.SquareButton
+        android:id="@+id/key_p"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/keyHeight"
+        android:layout_weight="1"
+        android:text="P" />
+
+    <Button
+        android:id="@+id/key_backspace"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:drawableEnd="@drawable/ic_backspace" />
+
+</LinearLayout>
